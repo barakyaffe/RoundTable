@@ -1,0 +1,62 @@
+/* wide screens */
+@media (min-width: 769px) {
+    .container {
+        margin-top: 55px;
+    }
+    .input-group {
+        padding-bottom: 5px;
+    }
+    .form-control {
+        width: 100px;
+    }
+    .brand {
+        max-height: 25px;
+    }
+    .navbar {
+        height: 98px;
+    }
+    .container-fluid {
+        margin: 0 auto;
+        width: 1035px;
+    }
+    .logo {
+        width: 135px;
+        height: 70px;
+    }
+    .navbar-form  {
+        margin-top: 37px;
+    }
+    #ui-datepicker-div {
+        padding-top: 30px;
+    }
+}
+
+/* small screens */
+@media (max-width: 768px) {
+
+    .container {
+        margin-top: 50px;
+    }
+    .container-fluid {
+        margin: inherit;
+    }
+    table.footable, table.footable-details {
+        margin-top: 20px;
+    }
+    .navbar-brand {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .logo {
+        width: 135px;
+        height: 70px;
+    }
+
+    #ui-datepicker-div {
+        padding-top: 138px;
+    }
+}
+
+
+
